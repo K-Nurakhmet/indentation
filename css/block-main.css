@@ -15,10 +15,12 @@
 
 .block-main__figure:last-child {
   margin: 0;
+  font-size: 20px;
 }
 
 .block-main__figure_state_center {
   text-align: center;
+  font-size: 0;
 }
 
 .block-main__img {
