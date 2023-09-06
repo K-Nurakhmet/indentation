@@ -1,0 +1,40 @@
+.block-main__title {
+  margin: 0 0 30px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.block-main__text {
+  margin: 0 0 30px;
+}
+
+.block-main__figure {
+  margin: 0 0 30px;
+}
+
+.block-main__figure:last-child {
+  margin: 0;
+}
+
+.block-main__figure_state_center {
+  text-align: center;
+}
+
+.block-main__img {
+  margin: 0 0 30px;
+}
+
+.block-main__figcaption_state_left{
+  margin: 0 0 30px;
+  text-align: left;
+}
+
+.block-main__picture {
+  margin: 0 0 30px;
+}
+
+.block-main__img {
+  padding: 0 382px;
+  margin: 0 0 30px;
+}

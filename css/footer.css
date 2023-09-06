@@ -1,0 +1,30 @@
+.footer {
+  padding: 25px 0 50px;
+}
+
+.footer__content {
+  padding: 25px 45px;
+  background-color: #F1F1F1;
+}
+
+.footer__title {
+  margin: 0 0 20px;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.footer__list {
+  margin: 0 0 30px;
+}
+
+.footer__item {
+  margin: 0 0 10px;
+  list-style-position: inside;
+  list-style-type: "— ";
+}
+
+.footer__item:last-child {
+  margin: 0;
+}

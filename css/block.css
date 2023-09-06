@@ -1,0 +1,40 @@
+
+.block__title {
+  margin: 0 0 30px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.block__content {
+  margin: 0 0 30px 0;
+}
+
+.block__content:last-child {
+  margin: 0;
+}
+
+.block__list {
+  display: inline-block;
+  max-width: 485px;
+  vertical-align: top;
+}
+
+.block__list_state_small {
+  max-width: 475px;
+  margin: 0 40px 0 0;
+}
+
+.block__img {
+  margin: 0 30px 0 0;
+  min-height: 100%;
+}
+
+.block__item {
+  margin: 0 0 30px;
+}
+
+.block__item:last-child {
+  margin: 0;
+}
