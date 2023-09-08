@@ -67,16 +67,9 @@ iframe {
   transform: scale(0);
 }
 
-.section {
-  padding: 25px 0;
-}
-
 .container {
   max-width: 1140px;
   padding: 0 30px;
 	margin: 0 auto;
 }
 
-.container-big {
-	padding: 0;
-}

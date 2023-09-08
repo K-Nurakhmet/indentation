@@ -1,0 +1,53 @@
+.main {
+  padding: 10px 0 50px;
+}
+
+.section {
+  padding: 25px 0;
+}
+
+.section__title {
+  margin: 0 0 30px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.section__text {
+  margin: 0 0 30px;
+}
+
+.section__text:last-child {
+  margin: 0;
+}
+
+.section__figure {
+  margin: 0 0 30px;
+}
+
+.section__figure:last-child {
+  margin: 0;
+}
+
+.section__figure_state_center {
+  text-align: center;
+}
+
+.section__caption {
+  margin: 0 0 30px;
+  text-align: left;
+}
+
+.section__img {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.section__text-bold {
+  font-weight: 700;
+}
+
+.section__text-italic {
+  font-style: italic;
+}

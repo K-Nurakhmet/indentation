@@ -1,0 +1,48 @@
+/* ! FULL SCREEN ! */
+.fullscreen {
+  background-color: #F1F1F1;
+}
+
+.fullscreen__title {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.navigation {
+  padding: 0 15px;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0 10px;
+  list-style-position: inside;
+}
+
+.navigation__item {
+  margin: 0 0 10px;
+  color: #02535F;
+}
+
+.navigation__item:last-child {
+  margin: 0;
+}
+
+.navigation__link {
+  border-bottom: 1px solid #02535F;
+}
+
+.fullscreen__list {
+  margin: 0 0 30px;
+}
+
+.fullscreen__item {
+  margin: 0 0 10px;
+  list-style-position: inside;
+  list-style-type: "— ";
+}
+
+.fullscreen__item:last-child {
+  margin: 0;
+} 

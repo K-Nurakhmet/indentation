@@ -1,43 +1,36 @@
-.block-dom__title {
-  margin: 0 0 30px;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 1.2;
-}
-
-.block-dom__text {
-  margin: 0 0 30px;
-}
-
-.block-dom__text:last-child {
-  margin: 0;
-}
-
 .block-dom__img {
   margin: 0 0 30px;
+}
+
+.block-dom__img-box {
+  display: block;
 }
 
 .block-dom__figure {
   margin: 0 0 30px;
 }
 
+.block-dom__caption {
+  margin: 0 0 30px;
+  text-align: left;
+}
+
 .block-dom__figure_state_center {
   text-align: center;
 }
 
-.block-dom__figcaption_state_left {
-  text-align: left;
+.block-dom__caption_state_left {
+  margin: 0;
 }
 
 .block-dom__figure_state_border {
+  margin: 0 0 30px;
+  padding: 0;
   border: 1px solid #000;
 }
 
-.block-dom__figcaption_state_border {
+.block-dom__caption_state_border {
+  margin: 0;
   padding: 15px 30px;
+  color: #5E5E5E;
 }
-
-.block-dom__img_state-center {
-  padding: 0 30px;
-}
-
