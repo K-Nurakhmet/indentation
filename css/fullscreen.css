@@ -1,6 +1,8 @@
 /* ! FULL SCREEN ! */
-.fullscreen {
+.fullscreen__content {
+  padding: 25px 45px;
   background-color: #F1F1F1;
+  border-radius: 10px;
 }
 
 .fullscreen__title {
@@ -11,7 +13,9 @@
 }
 
 .navigation {
-  padding: 0 15px;
+  padding: 25px 45px;
+  background-color: #F1F1F1;
+  border-radius: 10px;
 }
 
 .navigation__list {
