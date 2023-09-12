@@ -11,7 +11,7 @@
     <title>Margin и Padding</title>
   </head>
   <body>
-    <main class="main">
+    <main>
       <section class="block section">
         <div class="container">
           <h1 class="block__title">Отступы в вёрстке: margin и padding</h1>
@@ -37,25 +37,22 @@
       <!-- ! SECTION ! -->
       <section class="fullscreen section">
         <div class="container-big">
-          <nav class="navigation">
+          <nav class="fullscreen__navigation">
           <h2 class="fullscreen__title">Содержание:</h2>
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a class="navigation__link" href="#block"
-                >Отступ задается от предыдущего элемента к следующему</a
-              >
+          <ol class="fullscreen__navigation-list">
+            <li class="fullscreen__navigation-item">
+              <a class="fullscreen__navigation-link" href="#block"
+                >Отступ задается от предыдущего элемента к следующему</a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#block-dom"
-                >Отступ задается последнему возможному элементу в DOM-дереве</a
-              >
+            <li class="fullscreen__navigation-item">
+              <a class="fullscreen__navigation-link" href="#block-dom"
+                >Отступ задается последнему возможному элементу в DOM-дереве</a>
             </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#block-main"
-                >Для последнего элемента группы отступ обнуляется</a
-              >
+            <li class="fullscreen__navigation-item">
+              <a class="fullscreen__navigation-link" href="#block-main"
+                >Для последнего элемента группы отступ обнуляется</a>
             </li>
-          </ul>
+          </ol>
         </nav>
       </div>
       </section>
@@ -261,22 +258,22 @@
       <!--! SECTION !  -->
       <section class="fullscreen section">
         <div class="container-big">
-          <div class="fullscreen__content">
+          <nav class="fullscreen__navigation">
             <h2 class="fullscreen__title">Подытожим:</h2>
-            <ul class="fullscreen__list">
-              <li class="fullscreen__item">
+            <ul class="fullscreen__navigation-list fullscreen__navigation-list_state_bottom">
+              <li class="fullscreen__navigation-item fullscreen__navigation-item_type_black">
                 отступы задаём от предыдущего элемента к следующему
               </li>
-              <li class="fullscreen__item">
+              <li class="fullscreen__navigation-item fullscreen__navigation-item_type_black">
                 используем только margin-right и margin-bottom
               </li>
-              <li class="fullscreen__item">
+              <li class="fullscreen__navigation-item fullscreen__navigation-item_type_black">
                 внешние отступы задаются только между соседями
               </li>
-              <li class="fullscreen__item">
+              <li class="fullscreen__navigation-item fullscreen__navigation-item_type_black">
                 внутренний отступ задаём самому верхнему элементу в дом дереве
               </li>
-              <li class="fullscreen__item">
+              <li class="fullscreen__navigation-item fullscreen__navigation-item_type_black">
                 последнему элементу группы отступ всегда обнуляем
               </li>
             </ul>
@@ -286,7 +283,7 @@
               решения или простоты вёрстки. Но для этого эти принципы необходимо
               хорошо знать.
             </p>
-          </div>
+          </nav>
           </div>
       </section>
     </main>
