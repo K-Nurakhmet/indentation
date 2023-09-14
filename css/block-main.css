@@ -1,3 +1,6 @@
+.block-main {
+  padding: 25px 0 0 !important;
+}
 
 .block-main__img {
   display: block;
